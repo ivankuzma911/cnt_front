@@ -1,0 +1,48 @@
+
+.mainComp{
+    position: absolute;
+    width:800px;
+    left:50%;
+    margin-left:-400px;
+}
+
+.pagination a{
+    padding: 10px;
+}
+
+.pagination a:hover{
+    text-decoration: none;
+}
+
+.pagination a.disabled{
+   color:grey;
+}
+
+.pagination a.enabled{
+    color:black;
+    font-weight: bold;
+}
+
+.edit-form-inactive{
+    display: none;
+}
+
+.table a{
+    text-decoration: underline !important;
+}
+
+.searchForm{
+    background-color:#cce6ff;
+    max-width: 300px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.searchForm > input{
+
+}
